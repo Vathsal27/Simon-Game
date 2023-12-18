@@ -24,7 +24,7 @@ function nextSequence() {
     $("#level-title").text("Level " + level);
     var randNum = Math.floor(Math.random() * 4);
     genSeqArray.push(buttonColors[randNum]);
-    $("#"+buttonColors[randNum]).fadeOut(100).fadeIn(100).fadeIn(100);
+    $("#"+buttonColors[randNum]).fadeOut(100).fadeIn(100);
     playSound(buttonColors[randNum]);
 }
 
